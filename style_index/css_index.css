@@ -1,0 +1,38 @@
+#indexPic{
+    margin: 0 auto;
+    height: 594px;
+    width: 900px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 250px;
+    background: url("images/index_bac.jpg");
+}
+#lead{
+    font-size: 36pt;
+    margin-left: 200px;
+    margin-top: 200px;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#lead_{
+    font-size: 36pt;
+    margin-top: 0px;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#button{
+    border: 2px solid white;
+    width: 180px;
+    height: 25px;
+    cursor: pointer;
+    margin-top:-20px;
+    margin-left: 200px;
+}
+#button_txt{
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+}
+#button a{
+    text-decoration: none;
+}

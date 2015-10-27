@@ -1,0 +1,159 @@
+body{
+    background-color: #1F1F1F;
+}
+#all{
+    position: relative;
+    margin: 0 auto;
+    width: 994px;
+    height: 1450px;
+    z-index: 1;
+    border: 10px solid antiquewhite;
+    background-color: antiquewhite;
+}
+#title{
+    width: 994px;
+    height: 225px;
+    float: left;
+    background: url("images/title_bac.PNG");
+}
+#author{
+    width: 450px;
+    height: 80px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+#author h1{
+    float: left;
+    margin-top: 0px;
+    color: #1E90FF;
+}
+#author h1 p{
+    margin:0 0 20px 0;
+    padding:0 0 8px 0;
+    font-size:20px;
+    font-weight:normal;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: gray;
+}
+#tool{
+    width: 500px;
+    height: 80px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 10px;
+    /*background-color: #4B4B4B;*/
+}
+#show{
+    float: left;
+    margin-top: 10px;
+}
+#photoShow{
+    z-index: 1;
+    float: left;
+    margin-top: 10px;
+    width: 994px;
+    height: 550px;
+    background: #1F1F1F;
+}
+#photitle{
+    float: left;
+    width: 994px;
+    height: 80px;
+    background: #1F1F1F;
+}
+#photitle p {
+    padding:0 0 8px 0;
+    font-size:18px;
+    font-weight:normal;
+    float: left;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+#buttongroup{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+#buttongroup h2{
+    /*margin: 0px auto;*/
+    margin-top: 100px;
+    color: white;
+    font-size: 24pt;
+}
+#buttongroup h1{
+    padding:0 0 8px 0;
+    font-size:24pt;
+    margin-top: -30px;
+    font-weight:normal;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: white;
+}
+#circle{
+    width: 440px;
+    height: 50px;
+}
+#button1,#button2,#button3,#button4{
+    border: 1px solid gray;
+    width: 110px;
+    height: 30px;
+    float: left;
+    background-color: gray;
+    margin-left: 20px;
+}
+#button1_txt,#button2_txt,#button3_txt,#button4_txt{
+    margin-top: 4px;
+    color: white;
+}
+#circle a,#button4 a{
+    text-decoration: none;
+}
+#buttonshare{
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 200px;
+    border: 2px solid white;
+}
+#buttonshare a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#photoPic{
+    width: 574px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+}
+#photoPic h1{
+    float: left;
+    font-size: 10pt;
+    margin-top: 17px;
+    margin-left: 20px;
+    color: gray;
+}
+#showFriendWork{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: -350px;
+    margin-top: 50px;
+}
+#wrong{
+    position: relative;
+    z-index: 4;
+    width: 400px;
+    height: 90px;
+    border-top: 6px solid yellow;
+    margin-top: -450px;
+    margin-left: 400px;
+    background-color: yellow;
+}
+#imgview{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    border-right: 1px solid gray;
+    background-color: white;
+}
